@@ -1,4 +1,4 @@
-body{
+I'mbody{
     text-align: center;
     margin: 0%;
     padding: 0%;
@@ -34,7 +34,8 @@ button{
     width: 218px;
     margin: 5px;
     padding: 8px;
-    margin-left: 50px;
+    margin: auto;
+    align-item: center;
 }
 button:hover{
       background-color: yellow;
@@ -66,7 +67,8 @@ input{
     width: 200px;
     margin: 5px;
     padding: 8px;
-    margin-left: 50px;
+    margin: auto;
+    align-item: center;
 }
 h1{
     text-shadow: 3px 3px gray;
