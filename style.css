@@ -1,87 +1,84 @@
-I'mbody{
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-    background-color: white;
-    align-items: center;
-    width: auto;
-}
-div{
-    border: 3px solid gray;
-    width: 200px;
-    margin: 5px;
-    padding: 8px;
-    margin-left: auto;
-    margin-right: auto; 
-
-    
-}
-form{
-    border: 3px solid black;
-   margin: 5px;
-    margin-left: 15px;
-   
-    
-}
-.d1{
-    border: 3px solid black;
-    
-}
-button{
-    background-color:  orange;
-    border: none;
-    border: 3px solid gray;
-    width: 218px;
-    margin: 5px;
-    padding: 8px;
-    margin: auto;
-    align-item: center;
-}
-button:hover{
-      background-color: yellow;
-      color: blue;
-}
-a{
-    text-decoration: none;
-    color: blue;
-    font-size: 20px;
-}
-header{
-    background-color: black;
-    color: white;
-    margin: 0%;
-    padding: 1px;
-    padding-bottom: 0;
-    padding-top: 1px;
-    
-}
-i{
-    padding-right: 10px;
-}
-div:hover{
-    background-color: skyblue;
-    color:white;
-}
-input{
-    border: 3px solid gray;
-    width: 200px;
-    margin: 5px;
-    padding: 8px;
-    margin: auto;
-    align-item: center;
-}
-h1{
-    text-shadow: 3px 3px gray;
-    padding: 5px;
-}
-input:hover{
-    border-color: blue;
-}
-a:hover{
-    border: 2px solid blue;
-    border-radius: 10px;
-}
-footer{
-    padding: 1em;
-    padding-top: 30px;
-}
+body { 
+   margin: 0; 
+   padding: 0; 
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   flex-direction: column; 
+   text-align: center; 
+ } 
+ h2 { 
+   width: 100vw; /* Full width of the viewport */ 
+   background-color: black; /* Same background as header */ 
+   color: white; /* Match the header text color */ 
+   margin: 0; /* Remove default margin */ 
+   padding: 10px 0; /* Add vertical padding */ 
+   text-align: center; /* Center-align the text */ 
+   box-sizing: border-box; /* Include padding in the width calculation */ 
+ } 
+ div { 
+   border: 3px solid gray; 
+   width: 200px; 
+   margin: 5px; 
+   padding: 8px; 
+   margin-left: auto; 
+   margin-right: auto; 
+ } 
+ form { 
+   border: 3px solid black; 
+   margin: 5px; 
+ } 
+ .d1 { 
+   border: 3px solid black; 
+ } 
+ button { 
+   background-color: orange; 
+   border: none; 
+   border: 3px solid gray; 
+   width: 218px; 
+   margin: 5px; 
+   padding: 8px; 
+ } 
+ button:hover { 
+   background-color: yellow; 
+   color: blue; 
+ } 
+ a { 
+   text-decoration: none; 
+   color: blue; 
+   font-size: 20px; 
+ } 
+ header { 
+   background-color: black; 
+   color: white; 
+   padding: 4px 8px; 
+   width: 100%; 
+ } 
+ i { 
+   padding-right: 10px; 
+ } 
+ div:hover { 
+   background-color: skyblue; 
+   color: white; 
+ } 
+ input { 
+   border: 3px solid gray; 
+   width: 200px; 
+   margin: 5px; 
+   padding: 8px; 
+ } 
+ h1 { 
+   text-shadow: 3px 3px gray; 
+   padding: 5px; 
+ } 
+ input:hover { 
+   border-color: blue; 
+ } 
+ a:hover { 
+   border: 2px solid blue; 
+   border-radius: 10px; 
+ } 
+ footer { 
+   padding: 1em; 
+   padding-top: 30px; 
+  }
